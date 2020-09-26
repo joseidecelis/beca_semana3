@@ -1,0 +1,15 @@
+<p>Login</p>
+
+<div>
+  <label>Nombre</label>
+  <input type="text" [(ngModel)] = "login.username">
+</div>
+<div>
+  <label>Password</label>
+  <input type="password" [(ngModel)] = "login.password">
+</div>
+<div>
+  <input type="button" value="LogIn" (click) = "iniciarSesion()">
+  <input type="button" value="LogOut" (click) = "cerrarSesion()">
+</div>
+

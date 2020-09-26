@@ -1,0 +1,35 @@
+*{
+  display: inline;
+}
+.selected {
+  background-color: #CFD8DC !important;
+  color: rgb(255, 255, 255);
+}
+.menu {
+  margin: 0 0 1em 0;
+  list-style-type: none;
+  padding: 0;
+}
+.menu li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: cadetblue;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1em;
+  border-radius: 4px;
+}
+.menu li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+.menu li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.menu .text {
+  position: relative;
+  top: -3px;
+}

@@ -1,0 +1,29 @@
+<p>Ingreso de persona</p>
+
+<div>
+    <label>Nombre</label>
+    <input type="text" [(ngModel)] = "persona.nombre">
+</div>
+<div>
+    <label>Apellido</label>
+    <input type="text" [(ngModel)] = "persona.apellido">
+</div>
+<div>
+    <label>Dirección</label>
+    <input type="text" [(ngModel)] = "persona.direccion">
+</div>
+<div>
+    <label>Ciudad</label>
+    <input type="text" [(ngModel)] = "persona.ciudad">
+</div>
+<div>
+    <label>Pais</label>
+    <input type="text" [(ngModel)] = "persona.pais">
+</div>
+<div>
+    <label>Fecha nacimiento</label>
+    <input type="text" [(ngModel)] = "persona.fechaNacimiento">
+</div>
+<div>
+    <input type="button" [value]="persona.id? 'Editar':'Guardar'" (click) = "guardarPersona()">
+</div>
